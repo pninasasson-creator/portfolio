@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap");
 
 :root { --ink: #172821; --green: #153e37; --muted: #57615c; --paper: #fffefa; --line: #d8ddd7; --blue: #dce8f3; --lime: #d7edaa; }
 
@@ -224,7 +224,7 @@ details[open] summary span { transform: rotate(45deg); }
   .display-title { font-size: 38px; }
   .project-banner { padding: 24px; min-height: 320px; }
   .project-body { padding: 24px; }
-  .banner-top { font-size: 10px; }
+  .banner-top { font-size: 12px; }
   .leadership-grid { grid-template-columns: 1fr 1fr; }
   .email { font-size: 23px; }
   .header nav { gap: 22px; }
@@ -240,7 +240,7 @@ details[open] summary span { transform: rotate(45deg); }
   .wordmark { font-size: 34px; }
   .hero { padding-top: 30px; padding-bottom: 42px; }
   .hero-top { display: block; }
-  .hero-top .eyebrow { font-size: 10px; letter-spacing: 1.2px; }
+  .hero-top .eyebrow { font-size: 12px; letter-spacing: 1.2px; }
   .location { font-size: 12px; margin-top: 8px; }
   h1 { font-size: clamp(58px, 13.7vw, 96px); letter-spacing: -3px; margin: 29px 0px; }
   .hero-bottom { grid-template-columns: 1fr; gap: 24px; }
@@ -255,7 +255,8 @@ details[open] summary span { transform: rotate(45deg); }
   .section { padding-block: 58px; }
   .section-heading { display: block; margin-bottom: 30px; }
   .section-heading > p { margin-top: 18px; max-width: 330px; }
-  .eyebrow { font-size: 11px; margin-bottom: 15px; }
+  .eyebrow { font-size: 12px; margin-bottom: 15px; }
+  .project-body > .eyebrow, .education .eyebrow, .banner-bottom, .status { font-size: 12px; }
   h2 { font-size: 39px; }
   .projects { grid-template-columns: 1fr; gap: 22px; }
   .project-banner { min-height: 310px; }
@@ -264,7 +265,7 @@ details[open] summary span { transform: rotate(45deg); }
   .compact .project-body { min-height: auto; }
   .experience-layout, .about { grid-template-columns: 1fr; gap: 36px; }
   .experience-intro > p:not(.eyebrow) { max-width: 330px; }
-  .role-meta { font-size: 10px; gap: 10px; }
+  .role-meta { font-size: 12px; gap: 10px; }
   .about { padding-bottom: 25px; }
   .leadership { padding-top: 15px; padding-bottom: 60px; }
   .leadership-grid { gap: 26px; }
@@ -272,7 +273,7 @@ details[open] summary span { transform: rotate(45deg); }
   .contact-bottom { display: block; margin-top: 28px; }
   .contact-bottom > div { margin-top: 30px; }
   .email { font-size: 26px; width: max-content; max-width: 100%; }
-  .footer { flex-wrap: wrap; gap: 8px 20px; font-size: 11px; }
+  .footer { flex-wrap: wrap; gap: 8px 20px; font-size: 12px; }
   .footer > span:nth-child(2) { display: none; }
   .footer > a { margin-left: auto; }
 }
